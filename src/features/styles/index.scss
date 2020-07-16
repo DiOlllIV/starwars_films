@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    background-color:rgba(113, 113, 131, 0.5);
+}
+
+.films-list {
+    display: flex;
+    list-style: none;
+    margin: 1%;
+
+    &__episodes {
+        flex-wrap: wrap;
+        border: 1px solid black;
+        margin: 0.5%;
+        cursor: pointer;
+    }
+}
+
+.film-item {
+    display: block;
+    width: 100%;
+    padding: 5%;
+    border-top: 0.5px solid black;
+    text-align: center;
+}
